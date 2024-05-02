@@ -14,7 +14,7 @@ def generate_qr_code(data, file_name):
     img.save(file_name)
 
 if __name__ == "__main__":
-    data = input("Enter data to encode in QR code: ")
+    data = input("Machine 1")
     file_name = input("samples.png ")
 
     generate_qr_code(data, file_name)
