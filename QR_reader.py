@@ -9,6 +9,6 @@ def read_qr_code(file_name):
             print(f"Data: {obj.data.decode('utf-8')}")
 
 if __name__ == "__main__":
-    file_name = input("Enter file name of the QR code image to read: ")
+    file_name = input("samples.png ")
 
     read_qr_code(file_name)
