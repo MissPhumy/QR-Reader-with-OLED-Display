@@ -1,7 +1,7 @@
-# QR Image Scanner with OLED Display: Enhancing Efficiency
+# QR Image with OLED Display: Enhancing Efficiency
 
 ## Team
-**Prudence Radebe (Project Lead & Developer):** Responsible for designing, developing, and implementing the QR image scanner with OLED display integration. Also in charge of coordinating tasks and ensuring project completion.
+**Prudence Radebe (Project Lead & Developer):** Responsible for designing, developing, and implementing the QR image reader with OLED display integration. Also in charge of coordinating tasks and ensuring project completion.
 
 ## Technologies
 
@@ -20,7 +20,7 @@
 ## Challenge Statement
 
 ### Problem Statement
-The project aims to develop a QR image scanner capable of efficiently capturing and analyzing QR images. Additionally, it will integrate an OLED display to showcase the printed images for easy verification.
+The project aims to develop a QR image capable of efficiently capturing and analyzing QR images. Additionally, it will integrate an OLED display to showcase the printed images for easy verification.
 
 ### Risks
 
@@ -51,11 +51,11 @@ Manual entry or CSV import for initial data population and testing purposes.
 
 ### Similar Products or Solutions
 - **Commercial QR Scanners:** Offer similar functionality but may lack the flexibility of integration with custom hardware components like OLED displays.
-- **Desktop QR Scanner Software:** Provides QR scanning capabilities but lacks portability compared to a Raspberry Pi-based solution.
+- **Desktop QR Reading Software:** Provides QR analyzing capabilities but lacks portability compared to a Raspberry Pi-based solution.
 
 ### Comparison
-- **Commercial QR Scanners:** Provide out-of-the-box solutions but may not meet specific requirements or integrate with custom hardware.
-- **Desktop QR Scanner Software:** Limited by the hardware it's installed on and lacks the versatility of a Raspberry Pi-based solution.
+- **Commercial QR Scans:** Provide out-of-the-box solutions but may not meet specific requirements or integrate with custom hardware.
+- **Desktop QR Scans Software:** Limited by the hardware it's installed on and lacks the versatility of a Raspberry Pi-based solution.
 
 ## Conclusion
-The proposed QR image scanner with OLED display integration aims to provide a versatile and customizable solution for QR image scanning and verification. By leveraging Python and Raspberry Pi technology, the project offers a flexible platform adaptable to various environments and requirements.
+The proposed QR image reader with OLED display integration aims to provide a versatile and customizable solution for QR image reading and verification. By leveraging Python and Raspberry Pi technology, the project offers a flexible platform adaptable to various environments and requirements.
