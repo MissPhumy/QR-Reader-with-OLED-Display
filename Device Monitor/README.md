@@ -1,50 +1,47 @@
-# QR Code Reader Project Readme
+# Device Monitoring System with Email Notifications
 
 ## Overview
-This project is aimed at creating a network QR code reader using Raspberry Pi devices connected to the same WiFi network. The QR code reader periodically scans IP addresses within the network to check if they are up or down. The status of each QR code reader is recorded in a database, with a value of '1' indicating the QR code reader is up and '0' indicating it is down. Additionally, the script is configured to send an email notification in case of a loss of connection to any QR code reader.
+This project is a Device Monitoring System designed to track the operational status of various devices and send real-time notifications via email whenever an issue is detected. This ensures timely responses to any problems, minimizing downtime and maintaining optimal performance.
 
 ## Features
-- Ping-based QR code reader to monitor the availability of devices within the network.
-- Database integration to record the status of each QR code reader.
-- Email notification system for loss of connection events.
+- **Real-Time Monitoring**: Continuously tracks device status to detect anomalies or failures.
+- **Email Notifications**: Sends immediate email alerts when specific conditions are met, such as device malfunctions or status changes.
+- **Configurable Alerts**: Customize the conditions that trigger notifications based on your specific requirements.
+- **Data Logging**: Logs device performance data for further analysis and troubleshooting.
 
-## Requirements
-- Raspberry Pi devices connected to the same WiFi network.
-- Python 3.x installed on each Raspberry Pi.
-- Required Python packages (e.g., `sqlite3`, `smtplib`, `socket`, `subprocess`).
-
-## Setup
-1. Clone the repository to your Raspberry Pi devices.
+## Installation
+1. Clone the repository:
     ```bash
-    git clone https://github.com/your_username/qr-code-reader-project.git
+    git clone https://github.com//device-monitor.git
     ```
-2. Install the necessary Python packages if not already installed.
+2. Navigate to the project directory:
+    ```bash
+    cd device-monitoring-system
+    ```
+3. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
-3. Configure the database settings in `config.py` file.
-4. Edit the list of IP addresses to scan in the `qr_code_reader.py` script.
-5. Run the `qr_code_reader.py` script on each Raspberry Pi.
-    ```bash
-    python qr_code_reader.py
-    ```
 
 ## Usage
-- The `qr_code_reader.py` script can be run manually or automated using a scheduler (e.g., `cron`) to periodically scan the network.
-- View the database to monitor the status of each QR code reader.
-- Check email notifications for any loss of connection events.
+1. Configure the monitoring parameters in the `config.py` file.
+2. Run the monitoring script:
+    ```bash
+    python monitor.py
+    ```
+3. The system will start monitoring the devices and send email notifications as per the configured rules.
 
-## Troubleshooting
-- Ensure all Raspberry Pi devices are connected to the same WiFi network.
-- Double-check the IP addresses configured in the `qr_code_reader.py` script.
-- Verify the SMTP settings for sending email notifications in the `config.py` file.
+## Configuration
+- **Email Settings**: Configure the SMTP server, sender, and recipient details in the `config.py` file.
+- **Monitoring Rules**: Define the conditions for triggering notifications, such as specific error codes or performance thresholds.
 
-## Author
-- **Prudence Radebe**
-- Email: [missphumy@gmail.com](mailto:missphumy@gmail.com)
+## Dependencies
+- Python 3.x
+- [Relevant Python Libraries] (e.g., smtplib for email, psutil for monitoring)
 
 ## Contributing
-Contributions to improve the project are welcome! Feel free to fork the repository and submit pull requests with your enhancements.
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
