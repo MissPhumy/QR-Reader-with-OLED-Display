@@ -9,30 +9,16 @@ This project is a Device Monitoring System designed to track the operational sta
 - **Configurable Alerts**: Customize the conditions that trigger notifications based on your specific requirements.
 - **Data Logging**: Logs device performance data for further analysis and troubleshooting.
 
-## Installation
-1. Clone the repository:
-    ```bash
-    git clone https://github.com//device-monitor.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd device-monitoring-system
-    ```
-3. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ## Usage
-1. Configure the monitoring parameters in the `config.py` file.
-2. Run the monitoring script:
+1. Run the monitoring script:
     ```bash
-    python monitor.py
+    device_uptime_monitor.py
     ```
-3. The system will start monitoring the devices and send email notifications as per the configured rules.
+1. The system will start monitoring the devices and send email notifications as per the configured rules.
 
 ## Configuration
-- **Email Settings**: Configure the SMTP server, sender, and recipient details in the `config.py` file.
+- **Email Settings**: Configure the SMTP server, sender, and recipient details.
 - **Monitoring Rules**: Define the conditions for triggering notifications, such as specific error codes or performance thresholds.
 
 ## Dependencies
