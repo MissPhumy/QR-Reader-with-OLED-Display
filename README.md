@@ -59,3 +59,7 @@ Manual entry or CSV import for initial data population and testing purposes.
 
 ## Conclusion
 The proposed QR image reader with OLED display integration aims to provide a versatile and customizable solution for QR image reading and verification. By leveraging Python and Raspberry Pi technology, the project offers a flexible platform adaptable to various environments and requirements.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
